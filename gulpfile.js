@@ -1,4 +1,4 @@
-﻿var gulp = require('gulp') ;
+﻿var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 var pkg = require('./package.json');
 var del = require('del');
