@@ -1,0 +1,45 @@
+{
+    "name": "jpictura-core",
+    "version": "0.1.0",
+    "description": "A mathematical/algorithmic core for responsive alignment of images.",
+    "keywords": [
+        "photo",
+        "gallery",
+        "align",
+        "image",
+        "picture",
+        "resize",
+        "core"
+    ],
+    "license": "MIT",
+    "author": "Anton Marček",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anmarcek/jpictura-core.git"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "del": "^1.2.1",
+        "gulp": "^3.9.0",
+        "gulp-concat": "^2.4.3",
+        "gulp-cssnano": "^2.1.0",
+        "gulp-less": "^3.0.3",
+        "gulp-load-plugins": "^0.10.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-replace": "^0.5.3",
+        "gulp-uglify": "^1.1.0",
+        "gulp-zip": "^3.1.0"
+    },
+    "bugs": {
+        "url": "https://github.com/anmarcek/jpictura/issues"
+    },
+    "homepage": "https://github.com/anmarcek/jpictura-core#readme",
+    "main": "dist/jpictura-core.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "directories": {
+        "test": "test"
+    }
+}

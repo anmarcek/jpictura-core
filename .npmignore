@@ -1,0 +1,6 @@
+# Development only files
+docs/
+test/
+demo/
+gulpfile.js
+jpictura.zip
