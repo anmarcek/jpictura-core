@@ -1,11 +1,11 @@
 /*!
- * jPictura Core v0.1.3
+ * jPictura Core v0.1.4
  * https://github.com/anmarcek/jpictura-core.git
  *
  * Copyright (c) 2015-2016 Anton Marček
  * Released under the MIT license
  *
- * Date: 2016-08-10T07:56:06.144Z
+ * Date: 2016-08-10T08:36:14.607Z
  */
 var jpictura = {
     core: {
@@ -147,4 +147,4 @@ jpictura.core.heightCalculator = function (getItemsWidthForHeightFunc, logFunc, 
 
         return height;
     }
-}
+};
