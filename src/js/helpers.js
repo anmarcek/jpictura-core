@@ -1,6 +1,4 @@
-﻿var jpictura = jpictura || {};
-
-jpictura.debounce = function (func, wait, immediate) {
+﻿jpictura.core.debounce = function (func, wait, immediate) {
     var timeout;
 
     return function () {
@@ -23,11 +21,11 @@ jpictura.debounce = function (func, wait, immediate) {
     };
 };
 
-jpictura.offWindowWidthResize = function (eventNamespace) {
+jpictura.core.offWindowWidthResize = function (eventNamespace) {
     $(window).off('.' + eventNamespace);
 };
 
-jpictura.onWindowWidthResize = function (eventNamespace, callback) {
+jpictura.core.onWindowWidthResize = function (eventNamespace, callback) {
     var $window = $(window);
     var lastWindowWidth = $window.width();
     $window.on('resize.' + eventNamespace, function () {

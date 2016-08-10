@@ -1,0 +1,4 @@
+﻿var jpictura = {
+    core: {
+    }
+};

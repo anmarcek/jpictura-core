@@ -1,6 +1,4 @@
-﻿var jpictura = jpictura || {};
-
-jpictura.heightCalculator = function (getItemsWidthForHeightFunc, logFunc, opts) {
+﻿jpictura.core.heightCalculator = function (getItemsWidthForHeightFunc, logFunc, opts) {
     var log = logFunc;
     var getItemsWidthForHeight = getItemsWidthForHeightFunc;
     var options = opts;
@@ -98,4 +96,4 @@ jpictura.heightCalculator = function (getItemsWidthForHeightFunc, logFunc, opts)
 
         return height;
     }
-}
+};
