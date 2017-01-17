@@ -82,6 +82,6 @@ gulp.task('copy-css', function () {
 });
 
 gulp.task('clean', function (callback) {
-    del.sync([paths.dist.root + '**/*', paths.src.css + '/*.css']);
+    del.sync([paths.dist.root + '**/*', paths.src.css + '/**', '!' + paths.src.css, '!' + paths.src.css + '/less/**']);
     callback();
 });
