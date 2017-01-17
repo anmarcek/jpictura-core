@@ -1,11 +1,11 @@
 /*!
- * jPictura Core v0.1.4
+ * jPictura Core v0.1.5
  * https://github.com/anmarcek/jpictura-core.git
  *
- * Copyright (c) 2015-2016 Anton Marček
+ * Copyright (c) 2015-2017 Anton Marček
  * Released under the MIT license
  *
- * Date: 2016-08-10T08:36:14.607Z
+ * Date: 2017-01-17T09:18:21.911Z
  */
 var jpictura = {
     core: {
