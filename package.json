@@ -1,6 +1,6 @@
 {
     "name": "jpictura-core",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "A mathematical/algorithmic core for responsive alignment of images.",
     "keywords": [
         "photo",

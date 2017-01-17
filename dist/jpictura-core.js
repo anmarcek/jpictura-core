@@ -5,7 +5,7 @@
  * Copyright (c) 2015-2017 Anton Marček
  * Released under the MIT license
  *
- * Date: 2017-01-17T09:18:21.911Z
+ * Date: 2017-01-17T09:28:05.311Z
  */
 var jpictura = {
     core: {
